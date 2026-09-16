@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Cinzel', serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+    --font-mono: 'Space Grotesk', monospace;
+  }
+}
+
+.font-heading {
+  font-family: 'Cinzel', serif;
+}
+
+.font-sans-clean {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.font-industrial {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Vibrant Metallic Gold Gradients */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFF7C2 0%, #F59E0B 40%, #D97706 75%, #FFF099 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-gradient-text-vibrant {
+  background: linear-gradient(90deg, #FFE270 0%, #FFB703 35%, #FB8500 70%, #FFEBA3 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-gradient {
+  border-image: linear-gradient(to right, #F59E0B, #FFE082, #D97706) 1;
+}
+
+.gold-metallic-btn {
+  background: linear-gradient(135deg, #FFD54F 0%, #F59E0B 50%, #D97706 100%);
+  color: #0B0D11;
+  font-weight: 700;
+  box-shadow: 0 4px 20px -2px rgba(245, 158, 11, 0.45);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.gold-metallic-btn:hover {
+  background: linear-gradient(135deg, #FFE082 0%, #FBBF24 50%, #F59E0B 100%);
+  box-shadow: 0 8px 30px rgba(245, 158, 11, 0.6);
+  transform: translateY(-2px);
+}
+
+.gold-glow-subtle {
+  box-shadow: 0 0 25px -5px rgba(245, 158, 11, 0.15);
+}
+
+/* Subtle Industrial Grid Pattern */
+.bg-grid-industrial {
+  background-image: radial-gradient(rgba(245, 158, 11, 0.08) 1px, transparent 0);
+  background-size: 28px 28px;
+}
+
+.bg-texture-dark {
+  background-color: #0c0e12;
+  background-image: radial-gradient(#1e2430 0.75px, transparent 0.75px), radial-gradient(#1e2430 0.75px, #0c0e12 0.75px);
+  background-size: 30px 30px;
+  background-position: 0 0, 15px 15px;
+}

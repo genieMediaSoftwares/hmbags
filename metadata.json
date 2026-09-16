@@ -1,0 +1,6 @@
+{
+  "name": "HM Bags | Non-Woven & Shopping Bag Manufacturer",
+  "description": "HM Bags manufactures non-woven and shopping bags for businesses, retailers and brands, with custom sizes, printing and bulk manufacturing options.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
